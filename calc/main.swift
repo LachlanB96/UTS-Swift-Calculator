@@ -18,6 +18,8 @@ args.removeFirst() // remove the name of the program
 
 // Initialize a Calculator object
 let calculator = Calculator();
+let calculator2 = Calculator();
+//Test
 
 // Calculate the result
 let result = calculator.add(no1: 1, no2: 1);
