@@ -29,9 +29,7 @@ class Calculator {
     
     func calculate(args: [String]) -> String {
         // Todo: Calculate Result from the arguments. Replace dummyResult with your actual result;
-        let dummyResult = add(no1: 1, no2: 2);
-        
-        let result = String(dummyResult);
-        return(result)
+        print(args)
+        return(String(add(no1: 1, no2: 2)))
     }
 }
